@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GEO location</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Click the button to get your coordinates.</h3>
+
+                    <button id="find-me" type="submit" class="btn btn-info btn-lg" onclick="getLocation()">Show My Locatuon</button>
+                    <br><p id="demo"></p>
+
+                   <script>
+                      var x = document.getElementById("demo");
+                      function getLocation()
+                      {
+                          if (navigator.geolocation)
+                          {
+                             navigator.geolocation.getCurrentPosition(showPosition);
+                          }
+                          else
+                          { 
+                             x.innerHTML = "Geolocation is not supported by this browser.";
+                          }
+                      }  
+                      function showPosition(position)
+                      {
+                          x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude + "<br><br>Copy and paste them onto sign up form";
+                      }
+                    </script>
+                    <a href="signup2.html" onclick="goBack()">Back to signup page</a>
+                    <script>
+                       function goBack()
+                       {
+                          window.history.back();
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+﻿.content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px red, 0px 10px 13px orange, 0px 19px 24px maroon;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: purple;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 5em;
+}
+
+html {
+    height: 100%;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 2em;
+    color: rgb(255,120,200);
+}
+
+hr {
+    color: red;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid pink;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.3)
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto;
+    font-size: 17px;
+    padding: 25px;
+    background:url(https://images.idgesg.net/images/article/2017/10/voice_recognition_mobile_phone_thinkstock_815448194-100740665-large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container {
+    padding: 5px 20px 15px 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

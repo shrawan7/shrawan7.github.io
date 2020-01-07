@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="signup2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/607ef3bb4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <label for="adr"> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="SLIET Longowal">
+                    </div>
+                    <label for="city"> City</label>
+                    <input type="text" id="city" name="city" placeholder="Sangrur">
+                    <label for="city"> State</label>
+                    <input type="text" id="state" name="state" placeholder="Punjab">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="country">Country</label>
+                            <input type="text" id="country" name="country" placeholder="India">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="pin">Pin</label>
+                            <input type="text" id="pin" name="pin code" placeholder="148106">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Enter your location coordinates here.</h3><hr>
+                        <label for="latitude">Latitude</label>
+                        <input type="number" id="latitude" name="latitude" placeholder="25.0960742">
+                        <label for="longitude">Longitude</label>
+                        <input type="number" id="longitude" name="longitude" placeholder="85.31311939999999 ">
+                        <p style="text-align:right"><a href="geo1.html">Click here to know your location coordinates</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Add your voice</h3><hr>
+                    <label><a href="captcha.html">Click here</a> to add your voice</label>
+                    
+                </div>
+            </div>
+            <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+        </div>
+</body>
+</html>
